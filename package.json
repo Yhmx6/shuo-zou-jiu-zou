@@ -1,6 +1,7 @@
 {
   "name": "shuo-zou-jiu-zou",
   "version": "0.1.0",
+  "description": "帮你随时随地随机规划一场探索之旅，抛弃选择焦虑，点击即走",
   "private": true,
   "scripts": {
     "dev": "next dev",
