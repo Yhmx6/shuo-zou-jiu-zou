@@ -1,0 +1,9 @@
+{
+  "cities": [
+    {
+      "city": "example",
+      "displayName": "示例城"
+    }
+  ],
+  "updatedAt": "2026-10-26"
+}

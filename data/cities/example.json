@@ -1,0 +1,322 @@
+{
+  "city": "example",
+  "displayName": "示例城",
+  "cityCode": "0419",
+  "transferCityName": "辽阳市",
+  "districts": [
+    "示例城区"
+  ],
+  "coverage": [
+    "示例城区"
+  ],
+  "landmarkKeywords": [
+    "市民公园",
+    "城市博物馆"
+  ],
+  "origin": {
+    "latitude": 41.247878,
+    "longitude": 123.184017
+  },
+  "thresholds": {
+    "tier": "tier4",
+    "defaultBudget": 200,
+    "maxTotalMin": 360,
+    "sunsetMinute": 1039,
+    "lastEndMinute": 1410
+  },
+  "updatedAt": "2026-10-26",
+  "places": [
+    {
+      "id": "EX001",
+      "name": "市民公园",
+      "lng": 123.183695,
+      "lat": 41.24379,
+      "category": "park",
+      "openTime": null,
+      "closeTime": null,
+      "closedDays": [],
+      "rating": 4.1,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "园林",
+        "bestTime": "午后",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（park）"
+      },
+      "labelSource": "rule",
+      "importance": 5
+    },
+    {
+      "id": "EX002",
+      "name": "中心广场",
+      "lng": 123.18079,
+      "lat": 41.260047,
+      "category": "park",
+      "openTime": null,
+      "closeTime": null,
+      "closedDays": [],
+      "rating": 4.3,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "园林",
+        "bestTime": "午后",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（park）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    },
+    {
+      "id": "EX003",
+      "name": "河畔步道",
+      "lng": 123.181777,
+      "lat": 41.272709,
+      "category": "park",
+      "openTime": null,
+      "closeTime": null,
+      "closedDays": [],
+      "rating": 4.5,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "园林",
+        "bestTime": "午后",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（park）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    },
+    {
+      "id": "EX004",
+      "name": "新华书店",
+      "lng": 123.181127,
+      "lat": 41.255369,
+      "category": "bookstore",
+      "openTime": "09:00",
+      "closeTime": "20:00",
+      "closedDays": [],
+      "rating": 4.2,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "其他",
+        "bestTime": "任意",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（bookstore）"
+      },
+      "labelSource": "rule",
+      "importance": 3
+    },
+    {
+      "id": "EX005",
+      "name": "旧书铺",
+      "lng": 123.171344,
+      "lat": 41.251637,
+      "category": "bookstore",
+      "openTime": "09:00",
+      "closeTime": "20:00",
+      "closedDays": [],
+      "rating": 4.4,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "其他",
+        "bestTime": "任意",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（bookstore）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    },
+    {
+      "id": "EX006",
+      "name": "城市博物馆",
+      "lng": 123.189103,
+      "lat": 41.269993,
+      "category": "museum",
+      "openTime": "09:00",
+      "closeTime": "17:00",
+      "closedDays": [
+        1
+      ],
+      "rating": 4.6,
+      "avgCost": 0,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "建筑",
+        "bestTime": "午后",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（museum）"
+      },
+      "labelSource": "rule",
+      "importance": 5
+    },
+    {
+      "id": "EX007",
+      "name": "早市",
+      "lng": 123.169825,
+      "lat": 41.254325,
+      "category": "market",
+      "openTime": "07:00",
+      "closeTime": "18:00",
+      "closedDays": [],
+      "rating": 4.2,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "市井",
+        "bestTime": "清晨",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（market）"
+      },
+      "labelSource": "rule",
+      "importance": 3
+    },
+    {
+      "id": "EX008",
+      "name": "花鸟市场",
+      "lng": 123.169762,
+      "lat": 41.256856,
+      "category": "market",
+      "openTime": "07:00",
+      "closeTime": "18:00",
+      "closedDays": [],
+      "rating": 3.9,
+      "avgCost": null,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "市井",
+        "bestTime": "清晨",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（market）"
+      },
+      "labelSource": "rule",
+      "importance": 2
+    },
+    {
+      "id": "EX009",
+      "name": "老剧院",
+      "lng": 123.175642,
+      "lat": 41.265358,
+      "category": "theater",
+      "openTime": "19:00",
+      "closeTime": "22:00",
+      "closedDays": [
+        2
+      ],
+      "rating": 4.4,
+      "avgCost": 60,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "建筑",
+        "bestTime": "夜晚",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（theater）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    },
+    {
+      "id": "EX010",
+      "name": "老字号面馆",
+      "lng": 123.178549,
+      "lat": 41.250218,
+      "category": "restaurant",
+      "openTime": "10:30",
+      "closeTime": "21:00",
+      "closedDays": [],
+      "rating": 4.3,
+      "avgCost": 25,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "其他",
+        "bestTime": "任意",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（restaurant）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    },
+    {
+      "id": "EX011",
+      "name": "本地菜馆",
+      "lng": 123.177708,
+      "lat": 41.267834,
+      "category": "restaurant",
+      "openTime": "10:30",
+      "closeTime": "21:00",
+      "closedDays": [],
+      "rating": 4.1,
+      "avgCost": 60,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "其他",
+        "bestTime": "任意",
+        "soloFriendly": false,
+        "oneLineDesc": "示例点位（restaurant）"
+      },
+      "labelSource": "rule",
+      "importance": 3
+    },
+    {
+      "id": "EX012",
+      "name": "街角咖啡",
+      "lng": 123.179866,
+      "lat": 41.245283,
+      "category": "cafe",
+      "openTime": "08:00",
+      "closeTime": "22:00",
+      "closedDays": [],
+      "rating": 4.2,
+      "avgCost": 30,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "其他",
+        "bestTime": "任意",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（cafe）"
+      },
+      "labelSource": "rule",
+      "importance": 3
+    },
+    {
+      "id": "EX013",
+      "name": "市立美术馆",
+      "lng": 123.186349,
+      "lat": 41.255534,
+      "category": "gallery",
+      "openTime": "10:00",
+      "closeTime": "18:00",
+      "closedDays": [
+        1
+      ],
+      "rating": 4.3,
+      "avgCost": 0,
+      "source": "manual",
+      "lastVerified": "2026-10-26",
+      "scenery": {
+        "sceneryType": "工业",
+        "bestTime": "午后",
+        "soloFriendly": true,
+        "oneLineDesc": "示例点位（gallery）"
+      },
+      "labelSource": "rule",
+      "importance": 4
+    }
+  ]
+}

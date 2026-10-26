@@ -1,0 +1,17 @@
+# 统一按 LF 存进仓库，检出时由各平台自行决定。
+# 否则 Windows 下编辑过的文件会把 CRLF 一起提交，diff 里全是噪音。
+* text=auto eol=lf
+
+# 明确的二进制文件（不要做换行转换，也不要参与文本 diff）
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+
+# 锁文件在 diff 里没有可读性，GitHub 上折叠显示
+package-lock.json linguist-generated=true -diff

@@ -1,0 +1,101 @@
+{
+  "places": [
+    {
+      "id": "p1",
+      "name": "示例书店",
+      "lng": 120.1551,
+      "lat": 30.2741,
+      "category": "bookstore",
+      "openTime": "10:00",
+      "closeTime": "22:00",
+      "closedDays": [],
+      "rating": 4.6,
+      "avgCost": 0,
+      "source": "seed",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "p2",
+      "name": "示例面馆",
+      "lng": 120.1602,
+      "lat": 30.2768,
+      "category": "restaurant",
+      "openTime": "11:00",
+      "closeTime": "21:30",
+      "closedDays": [1],
+      "rating": 4.4,
+      "avgCost": 45,
+      "source": "seed",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "p3",
+      "name": "示例美术馆",
+      "lng": 120.1688,
+      "lat": 30.2803,
+      "category": "gallery",
+      "openTime": "09:30",
+      "closeTime": "21:00",
+      "closedDays": [2],
+      "rating": 4.7,
+      "avgCost": 60,
+      "source": "manual",
+      "lastVerified": "2026-10-20"
+    }
+  ],
+  "itinerary": {
+    "startAt": 1020,
+    "endAt": 1226,
+    "totalMin": 206,
+    "totalCost": 105,
+    "stops": [
+      {
+        "placeId": "p1",
+        "arriveAt": 1032,
+        "leaveAt": 1082,
+        "stayMin": 50,
+        "reason": "先去书店翻一小时新书，这个点店里刚安静下来。",
+        "costEstimate": 0
+      },
+      {
+        "placeId": "p2",
+        "arriveAt": 1091,
+        "leaveAt": 1146,
+        "stayMin": 55,
+        "reason": "步行 9 分钟就到，面馆出餐快，吃完刚好赶上下一站。",
+        "costEstimate": 45
+      },
+      {
+        "placeId": "p3",
+        "arriveAt": 1161,
+        "leaveAt": 1226,
+        "stayMin": 65,
+        "reason": "最后一站看展，闭馆前留一个小时，回家不算晚。",
+        "costEstimate": 60
+      }
+    ],
+    "segments": [
+      {
+        "fromId": "origin",
+        "toId": "p1",
+        "mode": "walk",
+        "durationMin": 12,
+        "distanceM": 900
+      },
+      {
+        "fromId": "p1",
+        "toId": "p2",
+        "mode": "walk",
+        "durationMin": 9,
+        "distanceM": 700
+      },
+      {
+        "fromId": "p2",
+        "toId": "p3",
+        "mode": "bus",
+        "durationMin": 15,
+        "distanceM": 3200
+      }
+    ]
+  }
+}
