@@ -2,7 +2,7 @@
 /**
  * /admin 地点列表配地图 · 浏览器级验收（scripts/verify/admin-map-acceptance.mjs）
  *
- * 本轮任务书：C:/Users/Yhmx/Desktop/下一轮指令-控制台地图.md（第三节 9 条验收）
+ * 本轮任务书：（内部文档，第三节 9 条验收）
  * 本轮契约：build/admin-map-contract.md（§4 DOM/调试钩子、§5 机器断言、§6 写入范围）
  *
  * 覆盖（逐条对应任务书第三节 + 契约 §5 的「另外必测」）：

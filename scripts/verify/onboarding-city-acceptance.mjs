@@ -148,8 +148,8 @@ const MANUAL_CLEAN_SHA = {
   liaoyang: "bcb80b8103d2e95e5c0f610473ea9adc374ded9dcfbe453a59ea217abb0993bb",
 };
 
-/** PortableGit 路径（不在 PATH；用于取本轮开始前 git HEAD 的两个城市 json 基线）。 */
-const PORTABLE_GIT = "C:\\Users\\Yhmx\\AppData\\Local\\Programs\\WorkBuddy\\resources\\vendor\\PortableGit\\cmd\\git.exe";
+/** git 可执行文件（用于取本轮开始前 git HEAD 的两个城市 json 基线）；不在 PATH 里时用 GIT_BIN 指定。 */
+const PORTABLE_GIT = process.env.GIT_BIN || "git";
 
 /** AMap 资源类 console 噪声（与既有脚本同口径）。 */
 const CONSOLE_NOISE = /AMap|INVALID_USER_DOMAIN|amap|favicon|Failed to load resource|ERR_NETWORK|ERR_BLOCKED_BY_CLIENT|WebSocket connection|\[HMR\]|\[Fast Refresh\]/;
